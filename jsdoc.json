@@ -1,0 +1,27 @@
+{
+	"tags": {
+			"allowUnknownTags":["component"],
+			"dictionaries": ["jsdoc","closure"]
+	},
+	"source": {
+			"include": ["./src"],
+			"includePattern": ".+\\.js(doc|x)?$",
+			"excludePattern": "(^|\\/|\\\\)_"			
+	},
+	"plugins": [
+			"plugins/markdown",
+			"node_modules/better-docs/component"
+	],
+	 "templates": {
+		"better-docs": {
+				"name": "Календарь"
+			}
+	},
+	"opts": {
+			"destination": "docs/",
+			"recurse": true,
+			"verbose": true,
+			"readme": "README.md",
+			"template": "node_modules/better-docs"
+	}
+}

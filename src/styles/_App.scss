@@ -1,0 +1,56 @@
+/* VARIABLES */
+
+:root {
+  --main-color: #1a8fff;
+  --text-color: #777;
+  --text-color-light: #ccc;
+  --calendar-color-neutral: #fff;
+  --calendar-border-color: #eee;
+  --canendar-color-bg: #F5F8F7;
+  --canendar-color-bg-light: rgba(245, 248, 247, 0.7);
+  --canendar-color-inner-border: #89B7C2;
+  --calendar-color-today: #EB5757;
+  --calendar-color-selected: #004E60;
+  --canendar-color-header-bg: #F5F8F7;
+  --canendar-color-text: #000;
+  --canendar-color-period: #1F85EB;
+  --canendar-color-icon-color: #137085;
+  --canendar-color-toolbar-button: #137085;
+  --calendar-width-info-column: 50px;
+  --calendar-height-day: 70px;
+  --calendar-color-stamp: #333;
+}
+
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--text-color);
+  background: var(--canendar-color-bg);
+  position: relative;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5em;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.test-col {
+  background-color: rgba(31, 133, 235, 0.15);
+  height: 100%;
+  font-size: 12px;
+  color: #137085;
+}

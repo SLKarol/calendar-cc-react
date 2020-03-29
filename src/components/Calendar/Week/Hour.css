@@ -1,0 +1,129 @@
+.calendar__hour {
+  overflow: hidden;
+  border-top: 1px solid var(--canendar-color-inner-border);
+  border-right: 1px solid var(--canendar-color-inner-border);
+}
+
+.calendar__day-week1 {
+  grid-column: 1;
+}
+
+.calendar__day-week2 {
+  grid-column: 2;
+}
+
+.calendar__day-week3 {
+  grid-column: 3;
+}
+
+.calendar__day-week4 {
+  grid-column: 4;
+}
+
+.calendar__day-week5 {
+  grid-column: 5;
+}
+
+.calendar__day-week6 {
+  grid-column: 6;
+}
+
+.calendar__day-week7 {
+  grid-column: 7;
+}
+
+.calendar__hour--h0 {
+  grid-row: 1;
+}
+
+.calendar__hour--h1 {
+  grid-row: 2;
+}
+
+.calendar__hour--h2 {
+  grid-row: 3;
+}
+
+.calendar__hour--h3 {
+  grid-row: 4;
+}
+
+.calendar__hour--h4 {
+  grid-row: 5;
+}
+
+.calendar__hour--h5 {
+  grid-row: 6;
+}
+
+.calendar__hour--h6 {
+  grid-row: 7;
+}
+
+.calendar__hour--h7 {
+  grid-row: 8;
+}
+
+.calendar__hour--h8 {
+  grid-row: 9;
+}
+
+.calendar__hour--h9 {
+  grid-row: 10;
+}
+
+.calendar__hour--h10 {
+  grid-row: 11;
+}
+
+.calendar__hour--h11 {
+  grid-row: 12;
+}
+
+.calendar__hour--h12 {
+  grid-row: 13;
+}
+
+.calendar__hour--h13 {
+  grid-row: 14;
+}
+
+.calendar__hour--h14 {
+  grid-row: 15;
+}
+
+.calendar__hour--h15 {
+  grid-row: 16;
+}
+
+.calendar__hour--h16 {
+  grid-row: 17;
+}
+
+.calendar__hour--h17 {
+  grid-row: 18;
+}
+
+.calendar__hour--h18 {
+  grid-row: 19;
+}
+
+.calendar__hour--h19 {
+  grid-row: 20;
+}
+
+.calendar__hour--h20 {
+  grid-row: 21;
+}
+
+.calendar__hour--h21 {
+  grid-row: 22;
+}
+
+.calendar__hour--h22 {
+  grid-row: 23;
+}
+
+.calendar__hour--h23 {
+  grid-row: 24;
+}

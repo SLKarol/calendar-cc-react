@@ -1,0 +1,24 @@
+.calendar__number {
+	height: 31px;
+  width: 31px;
+	border-radius: 50%;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.calendar__number--today {
+  background-color: var(--calendar-color-today);
+  color: #FFFFFF;
+}
+
+.calendar__number--selected {
+  background-color: var(--calendar-color-selected);
+  color: #FFFFFF;
+}
+
+.calendar__number--month {
+  text-align: center;
+  align-self: flex-end;
+}

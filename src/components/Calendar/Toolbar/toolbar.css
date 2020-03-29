@@ -1,0 +1,52 @@
+.calendar__select-period {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  flex: 1;
+  width: 100%;
+  padding-left: 32px;
+}
+
+.calendar__period-item {
+  display: flex;
+  align-items: center;
+}
+
+.calendar__period-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--canendar-color-period);
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 32px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.calendar__сhange-datetime-stamp {
+	display: flex;
+	flex:1;
+  justify-content: space-between;
+  margin: 0px 100px;
+}
+
+.calendar__period-tolbar {
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  padding: 0px 16px;
+}
+
+.calendar__additional-buttons {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  padding: 0px 16px;
+}
