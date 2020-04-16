@@ -59,21 +59,21 @@ import TestHourDay from "./components/Calendar/Day/Hour";
 * **selectDate** Обработчик смены дня в календаре
 * **isSelectedDate** День в календаре выбран? - true или false
 
-### Свойства кмопнента DayMoth
+### Свойства компонента DayMoth
 
 * **visible** Этот день виден?
 * **selected** Этот день выбран?
 * **ISOString** День в ISOFormat
 * **isToday** Это сегодняшний день?
 
-### Свойства кмопнента HourInWeek
+### Свойства компонента HourInWeek
 
 * **ISOString** День/время в ISOFormat
 * **dayInWeek** День недели
 * **hourInDay** Час в дне
 * **event** Событие на этот день-час
 
-### Свойства кмопнента HoursInDay
+### Свойства компонента HoursInDay
 
 * **ISOString** День/время в ISOFormat
 * **event** Событие на этот день-час
